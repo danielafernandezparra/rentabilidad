@@ -10,5 +10,7 @@ usuarios_gratis = usuarios_normal - usuarios_premiun
 
 gastos = ARGV[3].to_i
 
-utilidad = (precio_premium * usuarios_premiun + precio_normal * usuarios_normal + precio_gratis * usuarios_gratis) - gastos
-puts utilidad
+utilidad = (precio_premium * usuarios_premiun + precio_normal * usuarios_normal + precio_gratis * usuarios_gratis) - gastosutilidad_neta = u * 0.65 if u > 0
+
+utilidad_neta = u * 0.65 if u > 0
+puts utilidad_neta
